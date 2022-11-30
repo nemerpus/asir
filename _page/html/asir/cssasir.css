@@ -1,0 +1,502 @@
+@font-face {
+    font-family: ubuntu;
+    src: url('../recursos/ubuntu/Ubuntu-Bold.ttf');
+}
+
+body {
+    background: url("../recursos/wallhaven-685393.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#header {
+    font-family: "ubuntu";
+}
+
+ul {
+    list-style: none;
+}
+
+ul,
+ol {
+    padding-left: 0px;
+}
+
+.nav li {
+    width: 115%;
+}
+
+.nav li a {
+    background: url(../recursos/fondo.png);
+    border: solid deeppink;
+    border-radius: 100vw 100% 100vw 100%;
+    color: white;
+    text-decoration: none;
+
+    display: block;
+    font-family: ubuntu;
+    font-size: 1vw;
+    padding: 1%;
+    font-weight: bold;
+    width: 100%
+}
+
+.nav li a:hover {
+    background-color: lightpink;
+    color: mediumspringgreen;
+    display: flex;
+}
+
+.nav li ul {
+    display: none;
+    position: fixed;
+}
+
+.nav li:hover > ul {
+    display: inline-block;
+}
+
+#titulo {
+    font-size: 2.5vw;
+    font-family: ubuntu;
+    color: deeppink;
+    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+#portada {
+    width: 15%;
+    border-radius: 20vw 20vw 20vw 20vw;
+    border: solid lightpink;
+    float: right;
+}
+
+.nav {
+    float: left;
+}
+
+h1 {
+    color: deeppink;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    text-decoration: underline white;
+}
+
+p {
+    font-family: ubuntu;
+    font-size: 1.2vw;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+a {
+    color: white;
+    font-size: 1.2vw;
+}
+
+article {
+    text-align: center;
+}
+
+#uno {
+    color: white;
+    font-size: 1vw;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 0px;
+    text-align: justify;
+}
+
+#primero {
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+#segundo {
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+
+}
+
+span {
+    position: absolute;
+    text-align: right;
+    font-size: 0.7vw;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.marcado {
+    color: mediumspringgreen;
+}
+
+aside {
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+
+}
+
+.content {
+    float: left;
+    margin-bottom: 5%;
+    border-radius: 1%;
+    background-size: cover;
+    width: 33%;
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 325px;
+    margin-bottom: 230px;
+    margin-top: 60px;
+
+}
+
+.content a:hover {
+    color: mediumspringgreen
+}
+
+.none {
+    list-style: none;
+}
+
+#conjunto {
+    width: 100%;
+    height: 100%;
+}
+
+#footer {
+    font-size: 60%;
+    text-align: center;
+    font-family: Times new Roman;
+}
+
+#empresa {
+    font-family: ubuntu;
+    font-size: 110%;
+    text-align: center;
+}
+
+#regreso {
+    width: 2%;
+    border-radius: 50%;
+    float: right;
+
+}
+
+#asignatura {
+    background: white;
+    width: 25%;
+    box-shadow: 20px 20px 20px 20px black;
+    text-align: justify;
+    margin-left: 30%;
+}
+
+h2 {
+    color: deeppink;
+    text-decoration: underline white;
+}
+
+h3 {
+    color: mediumspringgreen;
+}
+
+q a {
+    color: gold;
+}
+
+q a:hover {
+    color: mediumspringgreen;
+}
+
+.fundamentos {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 1210px;
+    padding-left: 6px;
+    margin-top: 60px;
+
+}
+
+.fundamentos a:hover {
+    color: mediumspringgreen;
+}
+
+.fol {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 49%;
+    height: 215px;
+    padding-left: 6px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.fol a:hover {
+    color: mediumspringgreen;
+}
+
+.iso {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 49%;
+    height: 1625px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.iso a:hover {
+    color: mediumspringgreen;
+}
+
+.lmsxi {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 49%;
+    height: 1170px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.lmsxi a:hover {
+    color: mediumspringgreen;
+}
+
+.par {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 49%;
+    height: 2320px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.par a:hover {
+    color: mediumspringgreen;
+}
+
+.cpar {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 49%;
+    height: 2320px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.cpar a:hover {
+    color: mediumspringgreen;
+}
+
+.xbd {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 835px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.xbd a:hover {
+    color: mediumspringgreen;
+}
+
+.sri {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 675px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.sri a:hover {
+    color: mediumspringgreen;
+}
+
+.aso {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 1290px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.aso a:hover {
+    color: mediumspringgreen;
+}
+
+.iaw {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 49%;
+    height: 435px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.iaw a:hover {
+    color: mediumspringgreen;
+}
+
+.asgbd {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 1025px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.asgbd a:hover {
+    color: mediumspringgreen;
+}
+
+.eie {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 290px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.eie a:hover {
+    color: mediumspringgreen;
+}
+
+.sad {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 775px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.sad a:hover {
+    color: mediumspringgreen;
+}
+
+.proyecto {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 33%;
+    height: 290px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.proyecto a:hover {
+    color: mediumspringgreen;
+}
+.tai {
+    background: url(../recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    list-style-position: inside;
+    width: 49%;
+    height: 2640px;
+    padding-left: 6px;
+    margin-top: 60px;
+}
+
+.tai a:hover {
+    color: mediumspringgreen;
+}
